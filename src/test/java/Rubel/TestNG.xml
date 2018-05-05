@@ -2,8 +2,8 @@
 <suite name="Ecommerce">
   <test name="SanityTests">
     <classes>
-     <class name="GCReady.GroupTest"/>
-      <class name="GCReady.GroupTest2"/>
+     <class name="Rubel.GroupTest"/>
+      <class name="Rubel.GroupTest2"/>
     </classes>
   </test> 
 </suite> 

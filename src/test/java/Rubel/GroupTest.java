@@ -1,12 +1,19 @@
-package GCReady;
+package Rubel;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class GroupTest2 {
+public class GroupTest {
+	
+	
 	@BeforeTest
 	public void login() {
 	
@@ -25,29 +32,28 @@ System.out.println("---------------------------");
 	
 	
 	@Test(priority=1)
-	public void DeAdVendor() {
+	public void AdVendor() {
 			
 
-System.out.println("Delete Vendor Successful");
+System.out.println("Add Vendor Successful");
 
 
 	}
 	@Test(priority=2)
-	public void Deproduct() {
+	public void Adproduct() {
 			
 
-System.out.println("Delete product Successful");
+System.out.println("Add product Successful");
 
 
 	}
 	
 	@Test(priority=3)
-	public void DeCurrency() {
+	public void AdCurrency() {
 			
 
-System.out.println("Delete currency Successful");
+System.out.println("Add currency Successful");
 
 	}
 	
-
-}//end class
+	}//end class
