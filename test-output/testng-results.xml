@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ecommerce" duration-ms="94" started-at="2018-05-05T12:32:57Z" finished-at="2018-05-05T12:32:57Z">
+    <groups>
+    </groups>
+    <test name="SanityTests" duration-ms="94" started-at="2018-05-05T12:32:57Z" finished-at="2018-05-05T12:32:57Z">
+      <class name="GCReady.GroupTest2">
+        <test-method status="PASS" signature="DeAdVendor()[pri:1, instance:GCReady.GroupTest2@7a9273a8]" name="DeAdVendor" duration-ms="2" started-at="2018-05-05T08:32:57Z" finished-at="2018-05-05T08:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeAdVendor -->
+        <test-method status="PASS" signature="Deproduct()[pri:2, instance:GCReady.GroupTest2@7a9273a8]" name="Deproduct" duration-ms="3" started-at="2018-05-05T08:32:57Z" finished-at="2018-05-05T08:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deproduct -->
+        <test-method status="PASS" signature="DeCurrency()[pri:3, instance:GCReady.GroupTest2@7a9273a8]" name="DeCurrency" duration-ms="2" started-at="2018-05-05T08:32:57Z" finished-at="2018-05-05T08:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeCurrency -->
+      </class> <!-- GCReady.GroupTest2 -->
+      <class name="GCReady.GroupTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:GCReady.GroupTest@23d2a7e8]" name="login" is-config="true" duration-ms="16" started-at="2018-05-05T08:32:57Z" finished-at="2018-05-05T08:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login()[pri:0, instance:GCReady.GroupTest2@7a9273a8]" name="login" is-config="true" duration-ms="0" started-at="2018-05-05T08:32:57Z" finished-at="2018-05-05T08:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="AdVendor()[pri:1, instance:GCReady.GroupTest@23d2a7e8]" name="AdVendor" duration-ms="7" started-at="2018-05-05T08:32:57Z" finished-at="2018-05-05T08:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdVendor -->
+        <test-method status="PASS" signature="Adproduct()[pri:2, instance:GCReady.GroupTest@23d2a7e8]" name="Adproduct" duration-ms="1" started-at="2018-05-05T08:32:57Z" finished-at="2018-05-05T08:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adproduct -->
+        <test-method status="PASS" signature="AdCurrency()[pri:3, instance:GCReady.GroupTest@23d2a7e8]" name="AdCurrency" duration-ms="2" started-at="2018-05-05T08:32:57Z" finished-at="2018-05-05T08:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdCurrency -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:GCReady.GroupTest@23d2a7e8]" name="logout" is-config="true" duration-ms="0" started-at="2018-05-05T08:32:57Z" finished-at="2018-05-05T08:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:GCReady.GroupTest2@7a9273a8]" name="logout" is-config="true" duration-ms="1" started-at="2018-05-05T08:32:57Z" finished-at="2018-05-05T08:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- GCReady.GroupTest -->
+    </test> <!-- SanityTests -->
+  </suite> <!-- Ecommerce -->
+</testng-results>

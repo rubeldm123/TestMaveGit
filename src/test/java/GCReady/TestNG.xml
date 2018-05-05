@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ecommerce">
+  <test name="SanityTests">
+    <classes>
+     <class name="GCReady.GroupTest"/>
+      <class name="GCReady.GroupTest2"/>
+    </classes>
+  </test> 
+</suite> 
