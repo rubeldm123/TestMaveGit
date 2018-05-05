@@ -1,55 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Ecommerce" duration-ms="107" started-at="2018-05-05T13:20:56Z" finished-at="2018-05-05T13:20:56Z">
+  <suite name="Ecommerce" duration-ms="62" started-at="2018-05-05T14:59:59Z" finished-at="2018-05-05T14:59:59Z">
     <groups>
     </groups>
-    <test name="SanityTests" duration-ms="107" started-at="2018-05-05T13:20:56Z" finished-at="2018-05-05T13:20:56Z">
+    <test name="SanityTests" duration-ms="62" started-at="2018-05-05T14:59:59Z" finished-at="2018-05-05T14:59:59Z">
       <class name="Rubel.GroupTest">
-        <test-method status="PASS" signature="login()[pri:0, instance:Rubel.GroupTest@23d2a7e8]" name="login" is-config="true" duration-ms="16" started-at="2018-05-05T09:20:56Z" finished-at="2018-05-05T09:20:56Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:Rubel.GroupTest@7a9273a8]" name="login" is-config="true" duration-ms="16" started-at="2018-05-05T10:59:59Z" finished-at="2018-05-05T10:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Rubel.GroupTest2@7a9273a8]" name="login" is-config="true" duration-ms="10" started-at="2018-05-05T09:20:56Z" finished-at="2018-05-05T09:20:56Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:Rubel.GroupTest2@26a7b76d]" name="login" is-config="true" duration-ms="12" started-at="2018-05-05T10:59:59Z" finished-at="2018-05-05T10:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="AdVendor()[pri:1, instance:Rubel.GroupTest@23d2a7e8]" name="AdVendor" duration-ms="0" started-at="2018-05-05T09:20:56Z" finished-at="2018-05-05T09:20:56Z">
+        <test-method status="PASS" signature="AdVendor()[pri:1, instance:Rubel.GroupTest@7a9273a8]" name="AdVendor" duration-ms="16" started-at="2018-05-05T10:59:59Z" finished-at="2018-05-05T10:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AdVendor -->
-        <test-method status="PASS" signature="Adproduct()[pri:2, instance:Rubel.GroupTest@23d2a7e8]" name="Adproduct" duration-ms="0" started-at="2018-05-05T09:20:56Z" finished-at="2018-05-05T09:20:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Adproduct -->
-        <test-method status="PASS" signature="AdCurrency()[pri:3, instance:Rubel.GroupTest@23d2a7e8]" name="AdCurrency" duration-ms="0" started-at="2018-05-05T09:20:56Z" finished-at="2018-05-05T09:20:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AdCurrency -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:Rubel.GroupTest@23d2a7e8]" name="logout" is-config="true" duration-ms="0" started-at="2018-05-05T09:20:56Z" finished-at="2018-05-05T09:20:56Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:Rubel.GroupTest@7a9273a8]" name="logout" is-config="true" duration-ms="0" started-at="2018-05-05T10:59:59Z" finished-at="2018-05-05T10:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:Rubel.GroupTest2@7a9273a8]" name="logout" is-config="true" duration-ms="0" started-at="2018-05-05T09:20:56Z" finished-at="2018-05-05T09:20:56Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:Rubel.GroupTest2@26a7b76d]" name="logout" is-config="true" duration-ms="0" started-at="2018-05-05T10:59:59Z" finished-at="2018-05-05T10:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- Rubel.GroupTest -->
-      <class name="Rubel.GroupTest2">
-        <test-method status="PASS" signature="DeAdVendor()[pri:1, instance:Rubel.GroupTest2@7a9273a8]" name="DeAdVendor" duration-ms="0" started-at="2018-05-05T09:20:56Z" finished-at="2018-05-05T09:20:56Z">
+      <class name="Rubel.HelloWorld">
+        <test-method status="PASS" signature="Hi()[pri:0, instance:Rubel.HelloWorld@4abdb505]" name="Hi" duration-ms="0" started-at="2018-05-05T10:59:59Z" finished-at="2018-05-05T10:59:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DeAdVendor -->
-        <test-method status="PASS" signature="DeCurrency()[pri:3, instance:Rubel.GroupTest2@7a9273a8]" name="DeCurrency" duration-ms="0" started-at="2018-05-05T09:20:56Z" finished-at="2018-05-05T09:20:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeCurrency -->
-        <test-method status="PASS" signature="Deproduct()[pri:2, instance:Rubel.GroupTest2@7a9273a8]" name="Deproduct" duration-ms="0" started-at="2018-05-05T09:20:56Z" finished-at="2018-05-05T09:20:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Deproduct -->
-      </class> <!-- Rubel.GroupTest2 -->
+        </test-method> <!-- Hi -->
+      </class> <!-- Rubel.HelloWorld -->
     </test> <!-- SanityTests -->
   </suite> <!-- Ecommerce -->
 </testng-results>

@@ -4,6 +4,7 @@
     <classes>
      <class name="Rubel.GroupTest"/>
       <class name="Rubel.GroupTest2"/>
+      <class name="Rubel.HelloWorld"/>
     </classes>
   </test> 
 </suite> 
